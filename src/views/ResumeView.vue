@@ -17,6 +17,7 @@
                            Cellphone: 0681278921<br>
                            Email: imraanbernksen@gmail.com<br>
                            Location: Cape Town, South Africa<br>
+                           <a href="https://linktr.ee/imraanbernksen" target="_blank">Linktree</a>
                          </p>
                </div>
              </div>
@@ -27,7 +28,8 @@
                  <h4 class="card-title">Education</h4>
                  <p class="card-text lead about-par">
                     Oaklands High School, Chukker Rd, Lansdowne - Matriculated (2016 - 2020)<br><br>
-                    Life Choices Academy, 314 Imam Harom Rd, Lansdowne - Student (2022 - Currently)<br>
+                    Life Choices Academy, 314 Imam Harom Rd, Lansdowne - Student (2022 - 2023)<br><br>
+                    Life Choices Academy, 314 Imam Harom Rd, Lansdowne - LC Studio Intern (2023 - Currently)
                  </p>
                </div>
              </div>
@@ -40,7 +42,8 @@
                     Grasshopper Coding Fundamentals I & II Certifications - 2022 (Completed)<br>
                     Responsive Web Design Developer Certification - 2022 (Completed)<br>
                     JavaScript  Algorithms and Data Structures Certification - 2022 (Completed)<br>
-                    Life Choices Coding Academy Student - 2022 (Currently)<br>
+                    Life Choices Coding Academy Student - 2022/23 (Completed)<br>
+                    LC Studio Intern - 2023 (Currently)
                  </p>
                </div>
              </div>

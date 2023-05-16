@@ -1,12 +1,35 @@
 <template>
-    <footer>
-        <p class="text-white">Copyright &copy; 2023</p>
-        <div id="social-media" class="lead">
-            <a id="M1I0B_" target="_blank" href="https://www.instagram.com/imraanbernksen" class="fa-brands fa-instagram"></a>
-            <a id="M1I0B_" target="_blank" href="https://www.youtube.com/channel/UCSPsMgF3JVcXGRjXDwGBNaQ" class="fa-brands fa-youtube"></a>
-            <a id="M1I0B_" target="_blank" href="https://www.tiktok.com/@imraanbernksen" class="fa-brands fa-tiktok"></a>
-            <a id="M1I0B_" target="_blank" href="https://codepen.io/IMRAANBERNKSEN" class="fa-brands fa-codepen"></a>
-            <a id="M1I0B_" target="_blank" href="https://github.com/ImraanBernksen" class="fa-brands fa-github"></a>
+    <footer style="background-color: white">
+        
+        <div class="container text-center pt-3">
+            <div class="row">
+            <div class="col-sm-4 lead">
+                <div class="info">
+                    <p class="lead about-par text-start">
+                    <i id="icon" class="fa-sharp fa-solid fa-location-dot"></i> Address: Highlands Estate, Cape Town, Western Cape<br>
+                    <i id="icon" class="fa-solid fa-phone"></i> Cellphone: 0681278921<br>
+                    <i id="icon" class="fa-solid fa-envelope"></i> Gmail: imraanbernksen@gmail.com<br>
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+            <a class="quick" href="/">Home</a>
+            <a class="quick" href="/about">About</a>
+            <a class="quick" href="/resume">Resume</a>
+            <a class="quick" href="/projects">Projects</a>
+            <a class="quick" href="/testimonials">Testimonials</a>
+            <a class="quick" href="/contact">Contact</a>
+            </div>
+            <div class="col-sm-4 lead">
+            <a id="socials" target="_blank" href="https://instagram.com/imraanbernksen/" class="fa-brands fa-instagram"></a>
+            <a id="socials" target="_blank" href="https://github.com/ImraanBernksen" class="fa-brands fa-github"></a>
+            <a id="socials" target="_blank" href="https://www.linkedin.com/in/imraanbernksen/" class="fa-brands fa-linkedin"></a>
+            </div>
+            </div>
+            <br>
+            <div class="line"></div>
+            <br>
+            <p class="lead" style="margin-bottom: 0;">MIB &copy; 2023 | All Rights Reserved</p>
         </div>
     </footer>
 </template>
@@ -16,5 +39,54 @@ export default {
 }
 </script>
 <style scoped>
-    
+#socials {
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    color: black;
+    font-size: 30px;
+}
+
+#socials:hover {
+    color: #00FFA2;
+}
+
+#icon {
+    color: #00FFA2;
+    padding: 10px;
+}
+
+footer {
+    padding: 10px;
+    box-shadow:  0px 0 19px rgba(1, 0, 0, 0.9);
+    width: 100%;
+}
+
+.info {
+    padding-top: 10px;
+    padding-bottom: 40px;
+  }
+
+.quick:hover{
+    color: #00FFA2;
+}
+.quick {
+    display: block;
+    padding: 5px;
+    color: black;
+    /*text-align: start; */
+    font-size: 18px;
+}
+
+.line {
+    height: 2px;
+    width: 85vw;
+    background-color: black;
+    justify-content: center;
+    margin: auto;
+}
+
+a:hover {
+    color: blue;
+  }
 </style>

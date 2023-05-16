@@ -2,69 +2,63 @@
 <main>
   <NavBar/>
   <div id="about">
-    <h2><ins>About</ins></h2>
-<div class="row">       
-  <div class="col-lg-4 p-4">
-    <div class="card" id="cards_" style="height: 40rem; width: 25rem; margin: auto;">
-    <div class="card-body">
-      <h4 class="card-title">About Me</h4>
-      <p class="card-text lead bg-white text-dark about-par">
-        I'm 20 years old and born in Cape Town, South Africa. I'm a IT student at Life Choices Academy amd want to have a job in software development in the future. Graduated from Oaklands Highschool in 2020 then, after I did some online courses. I'm very mature for my age, friendly and hardworking. I've
-        always been interested in technology (phones and computers) and computer literate.
+      <div style="height: 15rem; width: 80rem; margin: auto;">
+      <h4 class="animate__animated animate__fadeInDown"><ins>ABOUT ME</ins></h4>
+      <p class="lead about-par">
+        I'm 20 years old and born in Cape Town, South Africa. I'm a IT Intern for LC Studio
+        at Life Choices Academy and i would like to have a job in web development.
+        Graduated from Oaklands Highschool in 2020 then, after I did some online courses.
+        I'm very mature for my age, friendly and hardworking. I've
+        always been interested in technology, web design and software development.
         I enjoy interacting and work with people. One of my most important attributes is
         responsibility, I appreciate being depended on and trustworthy. I will always go the
         extra mile and be helpful where I can.
       </p>
-    </div>
   </div>      
+<div class="row">
+  <div class="col-lg-6">
+  <div style="height: 25rem; width: 31rem; margin: auto;">
+      <h4 class="about-par animate__animated animate__fadeInLeft"><ins>PERSONAL DETAILS</ins></h4>
+              <p class="lead about-par">
+                Name: Mogamad Imraan<br>
+                Surname: Bernksen<br>
+                Gender: Male<br>
+                Birth: 04/07/2002<br>
+                Cellphone: 0681278921<br>
+                Email: imraanbernksen@gmail.com<br>
+                Location: Cape Town, South Africa<br>
+              </p>
+  </div>
+</div>
+  <!-- <div class="col-lg-6 p-4">
+    <div style="height: 33rem; width: 32rem; margin: auto;">
+    <h4><ins>Technical Skills</ins></h4>
+    <div class="text-dark">
+      <i class="fa-brands fa-html5 fa-3x"></i>
+
+      <i id="imo" class="fa-brands fa-css3 fa-3x"></i>
+
+      <i id="imo" class="fa-brands fa-bootstrap fa-3x"></i>
+
+      <i id="imo" class="fa-brands fa-square-js fa-3x"></i>
+
+      <i id="imo" class="fa-brands fa-vuejs fa-3x"></i>
+
+      <i id="imo" class="fa-brands fa-node-js fa-3x"></i>
+
+      <i id="imo" class="bi bi-filetype-sql fa-3x"></i>
+
     </div>
-    <div class="col-lg-4 p-4">
-      <div class="card" id="cards_" style="height: 40rem; width: 28rem; margin: auto;">
-      <div class="card-body">
-      <h4 class="card-title">Interests</h4>
-      <p class="card-text lead bg-white text-dark about-par">
-        My interests are coding, listening to music, playing soccer and designing clothing. Coding is so fun and challenging because i get to creates a set of instructions for computers to follow, to determine what actions a computer can and cannot take. I find technology innovating and so cool because there's so many aspects to it and there's limitless possibilities. I love playing soccer so much because it's my favorite sport when i was growing up. As i grow up, my music taste has gotten better and better as i discover more artists, different genres and music. Another interest of mind is designing clothing, different graphics on t-shirts and hoodies like anime and various patterns.
+  </div>
+</div> -->
+    <div class="col-lg-6">
+    <div style="height: 25rem; width: 50rem; margin: auto; padding-right: 200px;">
+      <h4 class="about-par animate__animated animate__fadeInRight"><ins>INTERESTS</ins></h4>
+      <p class="lead about-par">
+        My interests are working out, playing soccer, web design and designing clothing. Coding involves a lot of problem-solving skills. Web design allows me to showcase my creativity by designing visually appealing websites. Similarly, coding allows me to develop innovative solutions to real-world problems. The reason why so interested in soccer because it keeps me going and participating in team sports can provide a sense of community and social connection, which can improve my overall well-being. Exercise has improved my mental health by reducing stress, anxiety, and depression, and boosting self-esteem and cognitive function.
       </p>
     </div>
-  </div>
     </div>
-    <div class="col-lg-4 p-4">
-      <div class="card" id="cards_" style="height: 40rem; width: 25rem; margin: auto;">
-      <div class="card-body">
-      <h4 class="card-title">Skill Level</h4>
-      <div class="bg-white text-dark">
-        <i class="fa-brands fa-html5 fa-2x"></i>
-        <div class="progress">
-          <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-        </div>
-        <i id="imo" class="fa-brands fa-css3 fa-2x"></i>
-        <div class="progress">
-          <div class="progress-bar bg-info" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-        </div>
-        <i id="imo" class="fa-brands fa-bootstrap fa-2x"></i>
-        <div class="progress">
-          <div class="progress-bar bg-primary" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-        </div>
-        <i id="imo" class="fa-brands fa-square-js fa-2x"></i>
-        <div class="progress">
-          <div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-        </div>
-        <i id="imo" class="fa-brands fa-vuejs fa-2x"></i>
-        <div class="progress">
-          <div class="progress-bar bg-success" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-        </div>
-        <i id="imo" class="fa-brands fa-node-js fa-2x"></i>
-        <div class="progress">
-          <div class="progress-bar bg-dark" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-        </div>
-        <i id="imo" class="bi bi-filetype-sql fa-2x"></i>
-        <div class="progress">
-          <div class="progress-bar bg-secondary" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-        </div>
-      </div>
-    </div>
-    </div>
-  </div>
 </div>
 </div>
   <FooterComponent/>
@@ -81,6 +75,18 @@ export default {
   }
 }
 </script>
-<style>
+<style scoped>
+
+#about {
+  text-align: center;
+}
+.card { 
+  border-radius: 20px;
+  box-shadow: 3px -3px 3px 3px black;
+}
+.card:hover {
+  border-radius: 20px;
+  box-shadow: 3px -3px 3px 3px gold;
+}
   
 </style>

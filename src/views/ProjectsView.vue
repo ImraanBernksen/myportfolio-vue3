@@ -2,15 +2,16 @@
     <main>
     <NavBar/>
     <div id="projects">
-      <h2><ins>Projects</ins></h2>
+      <h4 class="animate__animated animate__fadeInDown"><ins>PROJECTS</ins></h4>
       <div class="lead" id="projectlinks">
-        <div class="row">
-        <div class="card h-100" id="cards_" v-for="item in arr" :key="item" style="width: 30rem; margin: auto; background-color: transparent;">
-          <img :src="item.imgSrc" loading="lazy" class="card-img-top" alt="...">
+        <div class="row" style="gap: 2rem; padding: 20px;">
+        <div class="card h-100" v-for="item in arr" :key="item" style="width: 28rem; margin: auto; background-color: white;">
+          <img :src="item.imgSrc" loading="lazy" class="card-img-top mt-2">
           <div class="card-body">
             <h4 class="card-title">{{item.projectName}}</h4>
-            <a :href="item.linkOne" target="_blank" class="btn btn text-white" id="btn_">GitHub</a>
-            <a :href="item.linkTwo" target="_blank" class="btn btn text-white" id="btn_">Netlify</a>
+            <p class="card-text">{{item.projectText}}</p>
+            <a :href="item.linkOne" target="_blank" class="btn btn-outline-dark" id="btn_">GitHub</a>
+            <a :href="item.linkTwo" target="_blank" class="btn btn-outline-dark" id="btn_">Hosting</a>
           </div>
         </div>
       </div>
@@ -59,46 +60,85 @@ import FooterComponent from '../components/FooterComponent.vue'
       return {
         arr: [
           {
+            imgSrc: "https://i.postimg.cc/GmGX1PZm/Screenshot-1.png",
+            projectName: "Mesmerize Ecommerce Website",
+            linkOne: "https://github.com/ImraanBernksen/Mesmerize_Project",
+            projectText: "VueJs, NodeJs, MySQL",
+            linkTwo: "https://mesmerize-project10.web.app/",
+          },
+          {
+            imgSrc: "https://i.postimg.cc/Jng5HKgJ/Screenshot-8.png",
+            projectName: "Nostalgic Ecommerce Website",
+            linkOne: "https://github.com/Mu-een/Nostalgic_NodeEOMP",
+            projectText: "VueJS, NodeJS, MySQL",
+            linkTwo: "https://nostalgic-nodejs-eomp.web.app/",
+          },
+          {
             imgSrc: "https://i.postimg.cc/B6PMWhN1/project1.png",
             projectName: "Portfolio Page",
+            projectText: "HTML",
             linkOne: "https://github.com/ImraanBernksen/PortfolioPage",
             linkTwo: "https://imraanbernksenportfoliopage.netlify.app/",
           },
           {
             imgSrc: "https://i.postimg.cc/ZRj3M6zy/project2.png",
             projectName: "JavaScript Calculator",
+            projectText: "HTML, JavaScript",
             linkOne: "https://github.com/ImraanBernksen/JS_Calculator",
             linkTwo: "https://imraanbernksen-jscalculator.netlify.app/",
           },
           {
             imgSrc: "https://i.postimg.cc/YCk25yNG/project3.png",
             projectName: "JavaScript EOMP",
+            projectText: "HTML, JavaScript",
             linkOne: "https://github.com/ImraanBernksen/JS_EOMP",
             linkTwo: "https://imraanbernksen-js-eomp.netlify.app/",
           },
           {
-            imgSrc: "https://i.postimg.cc/T17jzWFh/project4.png",
-            projectName: "Grid Layout",
-            linkOne: "https://github.com/ImraanBernksen/gridlayout",
-            linkTwo: "https://imraanbernksengridlayout.netlify.app/",
-          },
-          {
-            imgSrc: "https://i.postimg.cc/bYmvtjnz/project5.png",
-            projectName: "Media Query",
-            linkOne: "https://github.com/ImraanBernksen/MediaQuery",
-            linkTwo: "https://imraanbernksenmediaquery.netlify.app/",
-          },
-          {
-            imgSrc: "https://i.postimg.cc/gjxr0MNy/project6.png",
-            projectName: "Mini Project",
-            linkOne: "https://github.com/ImraanBernksen/miniproject",
-            linkTwo: "https://imraanbernksenminiproject.netlify.app/",
+            imgSrc: "https://i.postimg.cc/BvKdDY2w/tcn-bnry-test.png",
+            projectName: "TCN (BNRY Assessment)",
+            linkOne: "https://github.com/ImraanBernksen/bnry_test-CC.git",
+            projectText: "VueJS, Node",
+            linkTwo: "https://bnrytest-tcn.web.app/",
           },
         ],
       };
     },
   };
-  </script>
-  <style scoped>
-  
-  </style>
+</script>
+<style scoped>
+#projects {
+  text-align: center;
+  padding-bottom: 20px;
+}
+#projectlinks li {
+  list-style: none;
+}
+#viewprojects li {
+  list-style: none;
+  padding: 0 5px;
+  display: inline;
+}
+#viewprojects {
+  padding-top: 50px;
+}
+
+#projects a {
+  padding: 0 5px;
+}
+.project-tile {
+  text-shadow: 0 0 8px black;
+}
+
+img {
+  border-radius: 8px;
+}
+.card { 
+  border-radius: 20px;
+  box-shadow: 3px -3px 3px 3px black;
+}
+.card:hover {
+  border-radius: 20px;
+  box-shadow: 3px -3px 3px 3px white;
+}
+</style>

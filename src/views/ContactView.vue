@@ -50,7 +50,7 @@ export default {
 <style scoped>
   
 #contact {
-  padding-bottom: 130px;
+  padding-bottom: 140px;
 }
 
 label {

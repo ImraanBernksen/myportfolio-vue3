@@ -13,35 +13,6 @@
             </div>
         </div>
     </div>
-    <!-- testimonials -->
-    <div id="carouselExampleIndicators" class="carousel slide">
-    <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-    <div class="carousel-item active">
-      <!-- <img src="https://i.postimg.cc/pTFspNgf/t1.jpg" class="d-block w-75 m-auto"> -->
-      
-    </div>
-    <div class="carousel-item">
-      <img src="https://i.postimg.cc/KjQBYJv7/t2.jpg" class="d-block w-75 m-auto">
-    </div>
-    <div class="carousel-item">
-      <img src="https://i.postimg.cc/9f6FFBY4/t5.jpg" class="d-block w-75 m-auto">
-    </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-    </button>
-    </div>
-    <!-- testimonials -->
 <FooterComponent/>
 </main>
 </template>
@@ -118,12 +89,13 @@ img {
 img {
   border-radius: 8px;
 }
+
 .card { 
   border-radius: 20px;
   box-shadow: 3px -3px 3px 3px black;
 }
 .card:hover {
   border-radius: 20px;
-  box-shadow: 3px -3px 3px 3px gold;
+  box-shadow: 3px -3px 3px 3px white;
 }
 </style>

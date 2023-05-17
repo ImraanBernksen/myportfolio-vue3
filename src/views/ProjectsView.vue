@@ -107,6 +107,15 @@ import FooterComponent from '../components/FooterComponent.vue'
   };
 </script>
 <style scoped>
+#M1I0B_ {
+  color: black;
+  font-size: 30px;
+}
+
+#M1I0B_:hover {
+  color: white;
+}
+
 #projects {
   text-align: center;
   padding-bottom: 20px;

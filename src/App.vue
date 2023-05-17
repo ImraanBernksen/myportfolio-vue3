@@ -16,6 +16,7 @@ box-sizing: border-box;
 
 body {
 height: 100vh;
+width: 100%;
 }
 
 /*
@@ -132,8 +133,9 @@ main {
     background-attachment: fixed;
     width: 100%;
     height: 100%;
-     */
     background-color: #00FFA2;
+    */
+    background-image: linear-gradient(to right top, #00334c, #006282, #0096a6, #00cbb1, #00ffa2);
 }
 
 label {

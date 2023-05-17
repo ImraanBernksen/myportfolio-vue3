@@ -2,86 +2,76 @@
 <main>
     <NavBar/>
     <div id="skills">
-        <div class="container">
- <div class="row">
-  <!-- <div class="col-lg-6 p-4">
-    <div style="height: 33rem; width: 32rem; margin: auto;">
-    <h4><ins>Technical Skills</ins></h4>
-    <div class="text-dark">
-      <i class="fa-brands fa-html5 fa-3x"></i>
-
-      <i id="imo" class="fa-brands fa-css3 fa-3x"></i>
-
-      <i id="imo" class="fa-brands fa-bootstrap fa-3x"></i>
-
-      <i id="imo" class="fa-brands fa-square-js fa-3x"></i>
-
-      <i id="imo" class="fa-brands fa-vuejs fa-3x"></i>
-
-      <i id="imo" class="fa-brands fa-node-js fa-3x"></i>
-
-      <i id="imo" class="bi bi-filetype-sql fa-3x"></i>
-
+    <div class="container">
+    <div class="row">
+    <div class="col-lg-6 p-4">
+            <h4 class="animate__animated animate__fadeInLeft"><ins>Education</ins></h4>
+            <div class="row pt-4">
+            <div class="col-sm-6 m-auto">
+                <img src="https://i.postimg.cc/RZRJCf0B/cropped-oaklands-badge-small-2.png" style="width: 10rem;">
+            </div>
+            <div class="col-sm-6 m-auto pt-3">
+                <p class="lead about-par">Oaklands High School, Chukker Rd, Lansdowne <br> - Matriculated (2016 - 2020)</p>
+            </div>
+            </div>
+            <div class="row pt-4">
+            <div class="col-sm-6 m-auto">
+                <img src="https://i.postimg.cc/FHmJQGNp/LIFE-CHOICES-ICON-ON-GREEN.jpg" style="width: 10rem;">
+            </div>
+            <div class="col-sm-6 m-auto pt-3">
+                <p class="lead about-par">Life Choices Academy, 314 Imam Harom Rd, Lansdowne :<br> - LC Studio Intern (2023 - Currently) <br> - Lecturer Assistant (2023 - Currently)</p>
+            </div>
+            </div>
     </div>
-  </div>
-</div> -->
-<div class="col-lg-6 p-4">
-             <div style="width: 33rem; width: 32rem; margin: auto;">
-                 <h4 class="animate__animated animate__fadeInLeft"><ins>Education</ins></h4>
-                 <ul>
-                  <li>
-                      <p class="lead about-par">Oaklands High School, Chukker Rd, Lansdowne <br> - Matriculated (2016 - 2020)</p>
-                  </li>
-                  <li>
-                      <p class="lead about-par">Life Choices Academy, 314 Imam Harom Rd, Lansdowne :<br> - Currently : Full Stack Course (2022 - 2023) <br> - Intern : LC Studio (2023 - Currently) <br> - Lecturer Assistant (2023 - Currently)</p>
-                  </li>
-                </ul>
-              </div>
-              <div style="height: 33rem; width: 32rem; margin: auto;">
-                <h4 class="animate__animated animate__fadeInLeft"><ins>Technical Skills</ins></h4>
-                <div class="container">
-                  <div class="row">
-                    <div class="col-4"><i class="fa-brands fa-html5 fa-5x"></i></div>
-                    <div class="col-4"><i id="imo" class="fa-brands fa-css3 fa-5x"></i></div>
-                    <div class="col-4"><i id="imo" class="fa-brands fa-bootstrap fa-5x"></i></div>
-                    <div class="col-4"><i id="imo" class="fa-brands fa-square-js fa-5x"></i></div>
-                    <div class="col-4"><i id="imo" class="fa-brands fa-vuejs fa-5x"></i></div>
-                    <div class="col-4"><i id="imo" class="fa-brands fa-node fa-5x"></i></div>
-                    <div class="col-4"><i id="imo" class="bi bi-filetype-sql fa-5x"></i></div>
-                    <div class="col-4"><i id="imo" class="fa-brands fa-wordpress fa-5x pt-4"></i></div>
-                    <div class="col-4"><i id="imo" class="fa-brands fa-figma fa-5x pt-4"></i></div>
-                    <div class="col-4"><img style="width: 7rem; padding-left: 30px" id="imo" src="https://i.postimg.cc/WbHy00rY/user-experience.png"></div>
-                  </div>
-                </div>
-              </div>
+    <div class="col-lg-6 p-4">
+        <h4 class="card-title animate__animated animate__fadeInRight"><ins>Experience</ins></h4>
+        <ul class="timeline">
+            <li class="event">
+                <p class="lead about-par">Grasshopper Coding Fundamentals I &amp; II Certifications - 2022 (Completed)</p>
+            </li>
+            <li class="event">
+                <p class="lead about-par">Responsive Web Design Developer Certification - 2022 (Completed)</p>
+            </li>
+            <li class="event">
+                <p class="lead about-par">JavaScript  Algorithms and Data Structures Certification - 2022 (Completed)</p>
+            </li>
+            <li class="event">
+                <p class="lead about-par">Life Choices Coding Academy: <br> Full Stack Developer Course - 2022/23 (Completed)</p>
+            </li>
+        </ul>
+    </div>
+    </div>
+    <div class="container">
+        <div style="margin: auto;">
+        <h4 class="animate__animated animate__fadeInLeft"><ins>Technical Skills</ins></h4>
+            <div class="row">
+            <div class="col">
+                <i class="fa-brands fa-html5 fa-10x"></i>
             </div>
-            <div class="col-lg-6 p-4">
-                 <h4 class="card-title animate__animated animate__fadeInRight"><ins>Experience</ins></h4>
-                 <ul class="timeline">
-                  <li class="event">
-                      <p class="lead about-par">Grasshopper Coding Fundamentals I &amp; II Certifications - 2022 (Completed)</p>
-                  </li>
-                  <li class="event">
-                      <p class="lead about-par">Responsive Web Design Developer Certification - 2022 (Completed)</p>
-                  </li>
-                  <li class="event">
-                      <p class="lead about-par">JavaScript  Algorithms and Data Structures Certification - 2022 (Completed)</p>
-                  </li>
-                  <li class="event">
-                      <p class="lead about-par">Life Choices Coding Academy: <br> Full Stack Course - 2022/23 (Completed)</p>
-                  </li>
-                  <li class="event">
-                    <p class="lead about-par">Life Choices Coding Academy: <br>LC Studio - 2023 (Currently)</p>
-                </li>
-                <li class="event">
-                    <p class="lead about-par">Life Choices Coding Academy : <br> Lecturer Assistant - 2023 (Currently)</p>
-                </li>
-                </ul>
+            <div class="col">
+                <i id="imo" class="fa-brands fa-css3 fa-10x"></i>
             </div>
-         </div>
+            <div class="col">
+                <i id="imo" class="fa-brands fa-bootstrap fa-10x"></i>
+            </div>
+            <div class="col">
+                <i id="imo" class="fa-brands fa-square-js fa-10x"></i>
+            </div>
+            <div class="col">
+                <i id="imo" class="fa-brands fa-vuejs fa-10x"></i>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col"><i id="imo" class="fa-brands fa-node fa-10x pt-5"></i></div>
+            <div class="col"><i id="imo" class="bi bi-filetype-sql fa-10x"></i></div>
+            <div class="col"><i id="imo" class="fa-brands fa-wordpress fa-10x pt-5"></i></div>
+            <div class="col"><i id="imo" class="fa-brands fa-figma fa-10x pt-5"></i></div>
+            <div class="col"><img class="pt-5 m-auto" style="width: 10rem;" id="imo" src="https://i.postimg.cc/WbHy00rY/user-experience.png"></div>
+        </div>
+        </div>
+    </div>
  </div>
 </div>
-        <!-- </div> -->
     <FooterComponent/>
 </main>
 </template>
@@ -96,6 +86,11 @@ export default {
 }
 </script>
 <style scoped>
+.img-border {
+    border: 5px solid #00334C;
+    margin-left: 140px;
+    margin-right: 140px;
+}
 .card { 
   border-radius: 20px;
   box-shadow: 3px -3px 3px 3px black;
@@ -115,7 +110,7 @@ body{margin-top:20px;}
     margin: 0 auto;
     letter-spacing: 0.2px;
     position: relative;
-    line-height: 1.3em;
+    line-height: 1.0em;
     font-size: 1.03em;
     padding: 50px;
     list-style: none;
@@ -143,7 +138,6 @@ body{margin-top:20px;}
 }
 
 .timeline .event {
-    border-bottom: 1px dashed #e8ebf1;
     padding-bottom: 25px;
     margin-bottom: 25px;
     position: relative;

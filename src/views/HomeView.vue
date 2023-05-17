@@ -1,22 +1,22 @@
 <template>
   <main>
     <NavBar/>
-    <div id="home" style="padding-bottom: 25px;">
-      <div class="wrapper">
+    <div id="home" style="padding-bottom: 60px;">
+      <div class="wrapper pt-5">
         <div class="row">
-          <div class="col-6">
+          <div class="col-md-6">
             <div class="flip-box">
               <div class="flip-box-inner">
                 <div class="flip-box-front">
                   <img class="img img-fluid" src="https://i.postimg.cc/kXZsqSPz/t0.jpg" alt="IMO">
                 </div>
                 <div class="flip-box-back">
-                  <img class="photo" src="https://i.postimg.cc/nV1L9kVN/IMG-20220810-221420-027.jpg" alt="logo">
+                  <img class="photo img-fluid" src="https://i.postimg.cc/nV1L9kVN/IMG-20220810-221420-027.jpg" alt="logo">
                 </div>
               </div>
             </div>
           </div>
-            <div class="col-6">
+            <div class="col-md-6">
               <p class="text-center animate__animated animate__fadeInDown" id="myName" style="color: black;">WELCOME TO MY PORTFOLIO</p>
               <!-- <p class="slogan-now">Be mesmerized.</p> -->
               <div class="waviy">
@@ -27,7 +27,7 @@
                 <span style="--i:5">M</span>
                 <span style="--i:6">A</span>
                 <span style="--i:7">D</span>
-                .....
+                <div style="color: transparent;">.......</div>
                 <span style="--i:8">I</span>
                 <span style="--i:9">M</span>
                 <span style="--i:10">R</span>
@@ -47,23 +47,22 @@
               </div>
               <p class="text-center animate__animated animate__fadeInUp" id="myName" style="color: black;">FULL STACK WEB DEVELOPER</p>
               <div class="home_extra">
-                <a download="../assets/ImraanCV.pdf" href="../assets/ImraanCV.pdf" class="btn btn-outline-dark" id="btn_" target="_blank">Download
-                  CV</a>
-                <a href="/resume" class="btn btn-outline-dark" id="btn_">More info</a>
-                <br>
-                <br>
-                <div class="lead">
+                <button><a download="../assets/ImraanCV.pdf" href="../assets/ImraanCV.pdf" target="_blank" class="tdn">Download
+                  CV</a></button>
+                <button><a href="/about" class="tdn">More info</a></button>
+                
+                <!-- <div class="lead pt-4">
                   <a id="M1I0B_" target="_blank" href="https://www.instagram.com/imraanbernksen"
-                    class="fa-brands fa-instagram text-white"></a>
+                    class="fa-brands fa-instagram"></a>
                   <a id="M1I0B_" target="_blank" href="https://www.youtube.com/channel/UCSPsMgF3JVcXGRjXDwGBNaQ"
-                    class="fa-brands fa-youtube text-white"></a>
+                    class="fa-brands fa-youtube"></a>
                   <a id="M1I0B_" target="_blank" href="https://www.tiktok.com/@imraanbernksen"
-                    class="fa-brands fa-tiktok text-white"></a>
+                    class="fa-brands fa-tiktok"></a>
                   <a id="M1I0B_" target="_blank" href="https://codepen.io/IMRAANBERNKSEN"
-                    class="fa-brands fa-codepen text-white"></a>
+                    class="fa-brands fa-codepen"></a>
                   <a id="M1I0B_" target="_blank" href="https://github.com/ImraanBernksen"
-                  class="fa-brands fa-github text-white"></a>
-                </div>
+                  class="fa-brands fa-github"></a>
+                </div> -->
               </div>
             </div>
         </div>
@@ -88,6 +87,52 @@ main {
   height: 100vh !important;
 }
 */
+
+.tdn {
+  text-decoration: none;
+}
+
+button {
+  padding: 17px 40px;
+  border-radius: 50px;
+  border: 0;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all .5s ease;
+ }
+ 
+ button:hover {
+  letter-spacing: 3px;
+  background-color: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(255, 255, 255) 0px 7px 29px 0px;
+ }
+ 
+ button:active {
+  letter-spacing: 3px;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+ }
+
+body {
+  width: 100%;
+}
+
+#M1I0B_ {
+  color: black;
+  font-size: 30px;
+  padding: 10px;
+}
+
+#M1I0B_:hover {
+  color: white;
+}
 
 #myName {
   padding-top: 30px;
@@ -181,6 +226,7 @@ main {
   }
 }
 
+/*
 .slogan-now {
   color: white;
   text-shadow:  1.5px 1.5px 1.5px black;
@@ -202,4 +248,5 @@ main {
     color: white;
   }
 }
+*/
 </style>

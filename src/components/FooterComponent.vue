@@ -13,23 +13,24 @@
                 </div>
             </div>
             <div class="col-sm-4">
-            <a class="quick" href="/">Home</a>
-            <a class="quick" href="/about">About</a>
-            <a class="quick" href="/resume">Resume</a>
-            <a class="quick" href="/projects">Projects</a>
-            <a class="quick" href="/testimonials">Testimonials</a>
-            <a class="quick" href="/contact">Contact</a>
+            <a class="quick" href="/">HOME</a>
+            <a class="quick" href="/about">ABOUT</a>
+            <a class="quick" href="/resume">RESUME</a>
+            <a class="quick" href="/projects">PROJECTS</a>
+            <a class="quick" href="/testimonials">TESTIMONIALS</a>
+            <a class="quick" href="/contact">CONTACT</a>
             </div>
-            <div class="col-sm-4 lead">
+            <div class="col-sm-4 lead m-auto">
             <a id="socials" target="_blank" href="https://instagram.com/imraanbernksen/" class="fa-brands fa-instagram"></a>
             <a id="socials" target="_blank" href="https://github.com/ImraanBernksen" class="fa-brands fa-github"></a>
             <a id="socials" target="_blank" href="https://www.linkedin.com/in/imraanbernksen/" class="fa-brands fa-linkedin"></a>
+            <p class="lead pt-2">MIB &copy; COPYRIGHT 2023 | ALL RIGHTS RESERVED</p>
             </div>
             </div>
-            <br>
+            <!-- <br>
             <div class="line"></div>
             <br>
-            <p class="lead" style="margin-bottom: 0;">MIB &copy; 2023 | All Rights Reserved</p>
+            <p class="lead" style="margin-bottom: 0;">MIB &copy; COPYRIGHT 2023</p> -->
         </div>
     </footer>
 </template>
@@ -39,6 +40,11 @@ export default {
 }
 </script>
 <style scoped>
+/*
+a#socials {
+    display: inline;
+}
+*/
 #socials {
     text-decoration: none;
     padding: 10px;
@@ -76,6 +82,7 @@ footer {
     color: black;
     /*text-align: start; */
     font-size: 18px;
+    text-decoration: none;
 }
 
 .line {

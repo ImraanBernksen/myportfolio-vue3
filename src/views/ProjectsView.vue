@@ -4,8 +4,8 @@
     <div id="projects">
       <h4 class="animate__animated animate__fadeInDown"><ins>PROJECTS</ins></h4>
       <div class="lead" id="projectlinks">
-        <div class="row" style="gap: 2rem; padding: 20px;">
-        <div class="card h-100" v-for="item in arr" :key="item" style="width: 28rem; margin: auto; background-color: white;">
+        <div class="row" style="gap: 2rem; padding: 35px;">
+        <div class="card h-100" v-for="item in arr" :key="item" style="width: 28rem; margin: auto; background-color: transparent;">
           <img :src="item.imgSrc" loading="lazy" class="card-img-top mt-2">
           <div class="card-body">
             <h4 class="card-title">{{item.projectName}}</h4>

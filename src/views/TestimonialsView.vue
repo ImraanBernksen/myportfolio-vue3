@@ -3,8 +3,8 @@
 <NavBar/>
     <div id="testimonial">
         <h4 class="animate__animated animate__fadeInDown"><ins>TESTIMONIALS</ins></h4>
-        <div class="row" style="gap: 2rem; padding: 20px;">
-            <div class="card" v-for="item in arr" :key="item" style="height: 36rem; width: 28rem; margin: auto; background-color: white;">
+        <div class="row" style="gap: 2rem; padding: 35px;">
+            <div class="card" v-for="item in arr" :key="item" style="height: 38rem; width: 28rem; margin: auto; background-color: transparent;">
               <img :src="item.imgSrc" loading="lazy" class="card-img-top mt-2" alt="pic1">
               <div class="card-body">
                 <h4 class="card-title">{{item.personName}}</h4>
@@ -33,30 +33,30 @@ export default {
     imgSrc: 'https://i.postimg.cc/pTFspNgf/t1.jpg',
   },
   {
-    personName: 'Brogan Gys',
-    infoText: 'He is a very punctual person,  always on time. He is a very passionate person on the things he loves to do. He is very experienced with HTML, CSS, Bootstrap and thus he always understands his code and work that he is busy with.',
-    imgSrc: 'https://i.postimg.cc/KjQBYJv7/t2.jpg',
-  },
-  {
     personName: 'Kauthar Brandt',
     infoText: 'Imraan is a friendly individual and a pleasure to work with because of his supporting attributes. He encourages his peers to do their best, which allows him to work with any social group. His very knowledgeable on any topic, so its always lovely to engage in conversion with him.',
     imgSrc: 'https://i.postimg.cc/9f6FFBY4/t5.jpg',
   },
-    // {
-  //   personName: 'Joel Mukanya',
-  //   infoText: '...',
-  //   imgSrc: '...',
-  // },
-  // {
-  //   personName: 'Candice Amon',
-  //   infoText: '...',
-  //   imgSrc: '...',
-  // },
-  // {
-  //   personName: 'Oslin Johnson',
-  //   infoText: '...',
-  //   imgSrc: '...',
-  // },
+  {
+    personName: 'Brogan Gys',
+    infoText: 'He is a very punctual person,  always on time. He is a very passionate person on the things he loves to do. He is very experienced with HTML, CSS, Bootstrap and thus he always understands his code and work that he is busy with.',
+    imgSrc: 'https://i.postimg.cc/KjQBYJv7/t2.jpg',
+  },
+    {
+    personName: 'Joel Mukanya',
+    infoText: 'Imraan is the definition of a dedicated and professional young talent who has already proven to us that he is work-ready. He gained knowledge of web development, databases, APIs, and more.He volunteers as a lecturer assistant, and his duties are to assist students with their tasks and mark their assignments.',
+    imgSrc: '...',
+  },
+  {
+    personName: 'Candice Amon',
+    infoText: '...',
+    imgSrc: '...',
+  },
+  {
+    personName: 'Oslin Johnson',
+    infoText: '...',
+    imgSrc: '...',
+  },
   // {
   //   personName: 'Lindokuhle Mgoqi',
   //   infoText: 'Imo has a huge amount of dedication. He is always on time and he make sure that his job is done. He has a humble personality and a good approach.',

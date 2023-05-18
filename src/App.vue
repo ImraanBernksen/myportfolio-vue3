@@ -9,14 +9,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
 
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    word-wrap: break-word;
 }
 
 body {
-height: 100vh;
-width: 100%;
+    height: 100vh;
+    width: 100%;
 }
 
 /*

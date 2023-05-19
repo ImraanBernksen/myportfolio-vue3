@@ -4,22 +4,23 @@
     <div id="home" style="padding-bottom: 60px;">
       <div class="wrapper pt-5">
         <div class="row">
-          <div class="col-md-6">
-            <div class="flip-box">
+          <div class="col-md-6 col-sm-6">
+            <div class="flip-box img-fluid">
               <div class="flip-box-inner">
                 <div class="flip-box-front">
                   <img class="img img-fluid" src="https://i.postimg.cc/kXZsqSPz/t0.jpg" alt="IMO">
                 </div>
-                <div class="flip-box-back">
+                <div class="flip-box-back img-fluid">
                   <img class="photo img-fluid" src="https://i.postimg.cc/nV1L9kVN/IMG-20220810-221420-027.jpg" alt="logo">
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 col-sm-6">
             <p class="text-center animate__animated animate__fadeInDown" id="myName" style="color: black;">WELCOME TO MY
               PORTFOLIO</p>
             <!-- <p class="slogan-now">Be mesmerized.</p> -->
+            <div class="animation">
             <div class="waviy">
               <span style="--i:1">M</span>
               <span style="--i:2">O</span>
@@ -46,10 +47,11 @@
               <span style="--i:20">E</span>
               <span style="--i:21">N</span>
             </div>
+          </div>
             <p class="text-center animate__animated animate__fadeInUp" id="myName" style="color: black;">FULL STACK WEB
               DEVELOPER</p>
             <div class="home_extra">
-              <button><a download="../assets/ImraanCV.pdf" href="../assets/ImraanCV.pdf" target="_blank"
+              <button><a href="https://drive.google.com/file/d/11Iz-yqSb0fprw9TIXhgd6_m85EPiy72D/view?usp=share_link" target="_blank"
                   class="tdn">Download
                   CV</a></button>
               <button><a href="/about" class="tdn">More info</a></button>
@@ -90,6 +92,14 @@ main {
   height: 100vh !important;
 }
 */
+
+.row {
+  width: 100%;
+}
+
+.animation {
+  padding-right: 20px;
+}
 
 .tdn {
   text-decoration: none;
@@ -194,8 +204,7 @@ body {
   transform: rotateY(180deg);
 }
 
-.flip-box-front,
-.flip-box-back {
+.flip-box-front, .flip-box-back {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -258,4 +267,29 @@ body {
     color: white;
   }
 }
-*/</style>
+*/
+
+/*
+@media only screen and (max-width: 500px) {
+  .waviy span  {
+    font-size: 38px !important;
+  }
+}
+*/
+
+/* Media query for screens up to 300px */
+@media screen and (max-width: 300px) {
+
+  body {
+      width: 100%;
+  }
+
+  .flip-card-inner {
+    transform: rotateY(0deg) !important;
+  }
+
+  .flip-card:hover .flip-card-inner {
+    transform: none !important;
+  }
+}
+</style>

@@ -5,8 +5,8 @@
       <div class="container">
         <div class="row">
           <div class="col-12 col-lg-6">
-            <div style="margin: auto;">
-              <h4 class="about-par animate__animated animate__fadeInDown"><ins>ABOUT ME</ins></h4>
+            <div class="animate__animated animate__fadeInLeft" style="margin: auto;">
+              <h4 class="about-par"><ins>ABOUT ME</ins></h4>
               <p class="lead about-par">
                 I'm 20 years old and born in Cape Town, South Africa. I'm a IT Intern for LC Studio
                 at Life Choices Academy and i would like to have a job in web development.
@@ -18,8 +18,8 @@
                 extra mile and be helpful where I can.
               </p>
             </div>
-            <div style="margin: auto;">
-              <h4 class="about-par animate__animated animate__fadeInRight"><ins>INTERESTS</ins></h4>
+            <div class="animate__animated animate__fadeInLeft" style="margin: auto;">
+              <h4 class="about-par"><ins>INTERESTS</ins></h4>
               <p class="lead about-par pb-3">
                 My interests are working out, playing soccer, web design and designing clothing. Coding involves a lot of
                 problem-solving skills. Web design allows me to showcase my creativity by designing visually appealing
@@ -32,10 +32,10 @@
             </div>
           </div>
           <div class="col-12 col-lg-6">
-            <img class="img-fluid m-auto pt-5 pe-3 pb-1" src="https://i.postimg.cc/8PP9yW3X/undraw-Profile-re-4a55.png"
+            <img class="img-fluid m-auto pt-5 pe-3 pb-1 animate__animated animate__fadeInRight" src="https://i.postimg.cc/8PP9yW3X/undraw-Profile-re-4a55.png"
               style="width: 28rem;">
-            <div class="d-inline-block pt-5">
-              <h4 class="about-par animate__animated animate__fadeInLeft"><ins>PERSONAL DETAILS</ins></h4>
+            <div class="d-inline-block pt-5 animate__animated animate__fadeInRight">
+              <h4 class="about-par"><ins>PERSONAL DETAILS</ins></h4>
               <p class="lead about-par">
                 Name: Mogamad Imraan<br>
                 Surname: Bernksen<br>

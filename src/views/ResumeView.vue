@@ -46,7 +46,7 @@
         <h4><ins>Technical Skills</ins></h4>
             <div class="row">
             <div class="col">
-                <i class="fa-brands fa-html5 fa-10x"></i>
+                <i id="imo" class="fa-brands fa-html5 fa-10x"></i>
             </div>
             <div class="col">
                 <i id="imo" class="fa-brands fa-css3 fa-10x"></i>
@@ -86,6 +86,13 @@ export default {
 }
 </script>
 <style scoped>
+.row > .col > i:hover {
+    color: white;
+}
+i.imo:hover {
+    color: white;
+}
+
 .img-border {
     border: 5px solid #00334C;
     margin-left: 140px;

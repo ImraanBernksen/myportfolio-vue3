@@ -47,6 +47,17 @@ export default {
 }
 </script>
 <style scoped>
+form {
+  border: 1px solid;
+  padding: 30px;
+  box-shadow: 5px 10px;
+}
+
+form:hover {
+  border: 1px solid white;
+  padding: 30px;
+  box-shadow: 5px 10px white;
+}
 
 button {
   background: black;
@@ -59,7 +70,7 @@ button {
 }
 
 #contact {
-  padding-bottom: 75px;
+  padding-bottom: 20px;
 }
 
 label {

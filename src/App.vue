@@ -31,8 +31,8 @@ h2 {
 }
 h4, p, .project-tile, #fill, #social-media, #projects, footer {
     font-family: 'Alkalami', serif;
+/*    font-family: 'Playfair Display';*/
 }
-
 main, footer {
     min-width: 100%;
 }

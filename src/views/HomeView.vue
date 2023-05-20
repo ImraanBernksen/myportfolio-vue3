@@ -19,8 +19,9 @@
           <div class="col-md-6 col-sm-6">
             <p class="text-center animate__animated animate__fadeInDown" id="myName" style="color: black;">WELCOME TO MY
               PORTFOLIO</p>
-            <!-- <p class="slogan-now">Be mesmerized.</p> -->
-            <div class="animation">
+            <p class="slogan-now">MOGAMAD IMRAAN</p>
+            <p class="slogan-now">BERNKSEN</p>
+            <!-- <div class="animation">
             <div class="waviy">
               <span style="--i:1">M</span>
               <span style="--i:2">O</span>
@@ -47,7 +48,7 @@
               <span style="--i:20">E</span>
               <span style="--i:21">N</span>
             </div>
-          </div>
+          </div> -->
             <p class="text-center animate__animated animate__fadeInUp" id="myName" style="color: black;">FULL STACK WEB
               DEVELOPER</p>
             <div class="home_extra">
@@ -245,12 +246,12 @@ body {
   }
 }
 
-/*
+
 .slogan-now {
   color: white;
   text-shadow:  1.5px 1.5px 1.5px black;
   text-align: center;
-  font-size: 25px;
+  font-size: 50px;
   animation-duration: 2.5s;
   animation-fill-mode: both;
   animation-name: sloganColor;
@@ -267,7 +268,6 @@ body {
     color: white;
   }
 }
-*/
 
 /*
 @media only screen and (max-width: 500px) {

@@ -5,7 +5,7 @@
     <div class="container">
     <div class="row">
     <div class="col-lg-6 p-4 animate__animated animate__fadeInLeft">
-            <h4><ins>Education</ins></h4>
+            <h4><ins>EDUCATION</ins></h4>
             <div class="row pt-4">
             <div class="col-sm-6 m-auto">
                 <div class="border-img">
@@ -28,7 +28,7 @@
             </div>
     </div>
     <div class="col-lg-6 p-4 animate__animated animate__fadeInRight">
-        <h4 class="card-title"><ins>Experience</ins></h4>
+        <h4 class="card-title"><ins>EXPERIENCE</ins></h4>
         <ul class="timeline">
             <li class="event">
                 <p class="lead about-par">Grasshopper Coding Fundamentals I &amp; II Certifications - 2022 (Completed)</p>
@@ -47,7 +47,7 @@
     </div>
     <div class="container">
         <div style="margin: auto;">
-        <h4><ins>Technical Skills</ins></h4>
+        <h4><ins>TECHNICAL SKILLS</ins></h4>
             <div class="row">
             <div class="col">
                 <i id="imo" class="fa-brands fa-html5 fa-10x"></i>

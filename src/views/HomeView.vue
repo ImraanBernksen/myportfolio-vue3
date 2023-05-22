@@ -52,10 +52,9 @@
             <p class="text-center animate__animated animate__fadeInUp" id="myName" style="color: black;">FULL STACK WEB
               DEVELOPER</p>
             <div class="home_extra">
-              <button><a href="https://drive.google.com/file/d/11Iz-yqSb0fprw9TIXhgd6_m85EPiy72D/view?usp=share_link" target="_blank"
-                  class="tdn">Download
-                  CV</a></button>
-              <button><a href="/about" class="tdn">More info</a></button>
+              <a href="https://drive.google.com/file/d/11Iz-yqSb0fprw9TIXhgd6_m85EPiy72D/view?usp=share_link" target="_blank" class="tdn btn btn-outline-dark" id="btn_">DOWNLOAD
+                  CV</a>
+              <a href="/about" class="tdn btn btn-outline-dark" id="btn_">MORE INFO</a>
 
               <!-- <div class="lead pt-4">
                   <a id="M1I0B_" target="_blank" href="https://www.instagram.com/imraanbernksen"
@@ -104,34 +103,7 @@ main {
 
 .tdn {
   text-decoration: none;
-}
-
-button {
-  padding: 13px 36px;
-  border-radius: 50px;
-  border: 0;
-  background-color: white;
-  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-  font-size: 15px;
-  transition: all .5s ease;
-}
-
-button:hover {
-  letter-spacing: 3px;
-  background-color: hsl(0, 0%, 0%);
-  color: hsl(0, 0%, 100%);
-  box-shadow: rgb(255, 255, 255) 0px 7px 29px 0px;
-}
-
-button:active {
-  letter-spacing: 3px;
-  background-color: hsl(0, 0%, 100%);
-  color: hsl(0, 0%, 100%);
-  box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
-  transform: translateY(10px);
-  transition: 100ms;
+  margin: 5px;
 }
 
 body {

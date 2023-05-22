@@ -20,18 +20,11 @@ body {
     width: 100%;
 }
 
-/*
-*{
-    font-family: 'Gemunu Libre', sans-serif;
-}
-*/
-
 h2 {
     font-family: 'Gemunu Libre', sans-serif;
 }
 h4, p, .project-tile, #fill, #social-media, #projects, footer {
     font-family: 'Alkalami', serif;
-/*    font-family: 'Playfair Display';*/
 }
 main, footer {
     min-width: 100%;
@@ -138,11 +131,7 @@ main {
     */
     background-image: linear-gradient(to right top, #00334c, #006282, #0096a6, #00cbb1, #00ffa2);
 }
-/*
-label {
-    color: gold;
-}
-*/
+
 @media screen and (max-width:300px) {
     body {
     width: 100%;

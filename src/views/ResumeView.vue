@@ -8,7 +8,9 @@
             <h4><ins>Education</ins></h4>
             <div class="row pt-4">
             <div class="col-sm-6 m-auto">
-                <img src="https://i.postimg.cc/RZRJCf0B/cropped-oaklands-badge-small-2.png" style="width: 10rem;">
+                <div class="border-img">
+                    <img src="https://i.postimg.cc/RZRJCf0B/cropped-oaklands-badge-small-2.png" style="width: 10rem;">
+                </div>
             </div>
             <div class="col-sm-6 m-auto pt-3">
                 <p class="lead about-par">Oaklands High School, Chukker Rd, Lansdowne <br> - Matriculated (2016 - 2020)</p>
@@ -16,7 +18,9 @@
             </div>
             <div class="row pt-4">
             <div class="col-sm-6 m-auto">
-                <img src="https://i.postimg.cc/FHmJQGNp/LIFE-CHOICES-ICON-ON-GREEN.jpg" style="width: 10rem;">
+                <div class="border-img">
+                    <img src="https://i.postimg.cc/FHmJQGNp/LIFE-CHOICES-ICON-ON-GREEN.jpg" style="width: 10rem;">
+                </div>
             </div>
             <div class="col-sm-6 m-auto pt-3">
                 <p class="lead about-par">Life Choices Academy, 314 Imam Harom Rd, Lansdowne :<br> - LC Studio Intern (2023 - Currently) <br> - Lecturer Assistant (2023 - Currently)</p>
@@ -86,6 +90,20 @@ export default {
 }
 </script>
 <style scoped>
+
+.border-img {
+    border: 1px solid;
+    box-shadow: 5px 10px;
+    width: 10rem;
+    margin: auto;
+}
+
+.border-img:hover {
+border: 1px solid white;
+box-shadow: 5px 10px white;
+}
+
+
 .row > .col > i:hover {
     color: white;
 }

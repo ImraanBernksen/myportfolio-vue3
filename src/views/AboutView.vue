@@ -32,8 +32,10 @@
             </div>
           </div>
           <div class="col-12 col-lg-6">
-            <img class="img-fluid m-auto pt-5 pe-3 pb-1 animate__animated animate__fadeInRight" src="https://i.postimg.cc/8PP9yW3X/undraw-Profile-re-4a55.png"
-              style="width: 28rem;">
+            <div class="border-img m-auto mt-5 animate__animated animate__fadeInRight">
+              <img class="img-fluid" src="https://i.postimg.cc/8PP9yW3X/undraw-Profile-re-4a55.png"
+                style="width: 100%;">
+            </div>
             <div class="d-inline-block pt-5 animate__animated animate__fadeInRight">
               <h4 class="about-par"><ins>PERSONAL DETAILS</ins></h4>
               <p class="lead about-par">
@@ -65,6 +67,18 @@ export default {
 }
 </script>
 <style scoped>
+
+.border-img{
+  border: 1px solid;
+  box-shadow: 5px 10px;
+  width: 70%;
+}
+
+.border-img:hover {
+  border: 1px solid white;
+  box-shadow: 5px 10px white;
+}
+
 #about {
   text-align: center;
 }

@@ -27,7 +27,7 @@
                   <textarea class="form-control input" name="message" rows="5" required></textarea>
                 </div>
                 <div class="mx-auto pt-3">
-                <button type="submit" class="btn btn-outline-light input"  style="width: 205px;">Submit</button>
+                <button type="submit" class="btn btn-outline-light input"  style="width:9rem;">Submit</button>
                </div>
                </div>
           </form>

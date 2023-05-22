@@ -13,6 +13,7 @@
         </div>
     </div>
 </div> -->
+<h4 class="animate__animated animate__fadeInDown"><ins>TESTIMONIALS</ins></h4>
 <div id="testimonial">
 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
   <div class="carousel-indicators">
@@ -192,7 +193,7 @@ export default {
 <style scoped>
 
 #testimonial {
-  padding: 120px 0 150px 0;
+  padding: 40px 0 100px 0;
 }
 
 img {

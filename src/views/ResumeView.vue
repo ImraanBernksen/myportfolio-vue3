@@ -98,6 +98,7 @@ i.imo:hover {
     margin-left: 140px;
     margin-right: 140px;
 }
+/*
 .card { 
   border-radius: 20px;
   box-shadow: 3px -3px 3px 3px black;
@@ -106,6 +107,7 @@ i.imo:hover {
   border-radius: 20px;
   box-shadow: 3px -3px 3px 3px gold;
 }
+*/
 
 /*timeline*/
 

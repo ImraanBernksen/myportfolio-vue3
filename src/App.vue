@@ -34,13 +34,11 @@ h1, h2, h3, h5, h6 {
     text-align: center;
     padding-bottom: 20px;
     padding: 20px;
-    color: #00334C;
 }
 h4 {
     text-align: center;
     padding-bottom: 20px;
     padding-top: 20px;
-    color: gold;
 }
 
 #skills {

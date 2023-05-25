@@ -1,11 +1,10 @@
 <template>
   <main>
     <NavBar />
-    <div id="about">
-      <div class="container">
+    <div class="container">
         <div class="row">
-          <div class="col-12 col-lg-6">
-            <div class="animate__animated animate__fadeInLeft" style="margin: auto;">
+          <div class="col-12 col-lg-6 mt-4">
+            <div id="border-about" class="border-img animate__animated animate__fadeInLeft">
               <h4 class="about-par"><ins>ABOUT ME</ins></h4>
               <p class="lead about-par">
                 I'm 20 years old and born in Cape Town, South Africa. I'm a IT Intern for LC Studio
@@ -18,9 +17,19 @@
                 extra mile and be helpful where I can.
               </p>
             </div>
-            <div class="animate__animated animate__fadeInLeft" style="margin: auto;">
+          </div>
+          <div class="col-12 col-lg-6 mt-4">
+            <div id="border-about" class="border-img py-3 animate__animated animate__fadeInRight">
+              <img class="img-fluid" src="https://i.postimg.cc/8PP9yW3X/undraw-Profile-re-4a55.png"
+                style="width: 100%;">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-6 mb-4">
+            <div id="border-about" class="border-img mt-3 animate__animated animate__fadeInLeft">
               <h4 class="about-par"><ins>INTERESTS</ins></h4>
-              <p class="lead about-par pb-3">
+              <p class="lead about-par">
                 My interests are working out, playing soccer, web design and designing clothing. Coding involves a lot of
                 problem-solving skills. Web design allows me to showcase my creativity by designing visually appealing
                 websites. Similarly, coding allows me to develop innovative solutions to real-world problems. The reason
@@ -31,12 +40,8 @@
               </p>
             </div>
           </div>
-          <div class="col-12 col-lg-6">
-            <div class="border-img m-auto mt-5 animate__animated animate__fadeInRight">
-              <img class="img-fluid" src="https://i.postimg.cc/8PP9yW3X/undraw-Profile-re-4a55.png"
-                style="width: 100%;">
-            </div>
-            <div class="d-inline-block pt-5 animate__animated animate__fadeInRight">
+          <div class="col-12 col-lg-6 mb-4">
+            <div id="border-about" class="border-img mt-3 animate__animated animate__fadeInRight" style="padding-bottom: 73px;">
               <h4 class="about-par"><ins>PERSONAL DETAILS</ins></h4>
               <p class="lead about-par">
                 Name: Mogamad Imraan<br>
@@ -50,7 +55,6 @@
             </div>
           </div>
         </div>
-      </div>
     </div>
     <FooterComponent />
   </main>
@@ -67,28 +71,20 @@ export default {
 }
 </script>
 <style scoped>
+#border-about {
+  box-shadow: 0 3px 10px black;
+  padding-right: 20px;
+  padding-left: 20px;
+}
 
+#border-about:hover {
+  background-color: white;
+}
+
+/*
 .border-img{
-  border: 1px solid;
-  box-shadow: 5px 10px;
-  width: 70%;
+  width: 80%;
+  margin: auto;
 }
-
-.border-img:hover {
-  border: 1px solid white;
-  box-shadow: 5px 10px white;
-}
-
-#about {
-  text-align: center;
-}
-
-.card {
-  border-radius: 20px;
-  box-shadow: 3px -3px 3px 3px black;
-}
-
-.card:hover {
-  border-radius: 20px;
-  box-shadow: 3px -3px 3px 3px gold;
-}</style>
+*/
+</style>

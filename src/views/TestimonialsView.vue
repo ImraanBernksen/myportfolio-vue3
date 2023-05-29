@@ -3,21 +3,23 @@
 <NavBar/>
 <div id="testimonial">
     <h4 class="animate__animated animate__fadeInDown"><ins>TESTIMONIALS</ins></h4>
-    <div class="row" style="gap: 2rem; padding: 35px;">
-        <div class="card" v-for="item in arr" :key="item" style="height: 18rem; width: 45rem; margin: auto; background-color: transparent;">
+    <div class="container">
+    <div class="row" style="gap: 2rem; padding: 32px;">
+        <div class="card" v-for="item in arr" :key="item" style="min-height: 23rem; width: 38rem; margin: auto; background-color: transparent;">
           <div class="row g-0" style="width: 100%;">
-          <div class="col-md-5">
+          <div class="col-md-6 col-sm-6">
             <img :src="item.imgSrc" loading="lazy" class="img-fluid rounded-start mt-4 m-auto">
-            <h4 class="card-title" style="color: white;">{{item.personName}}</h4>
+            <h4 class="card-title mt-3" style="color: white;">{{item.personName}}</h4>
           </div>
-          <div class="col-md-7">
+          <div class="col-md-6 col-sm-6">
             <div class="card-body">
-              <p class="card-text mt-4" style="font-size: large;">{{item.infoText}}</p>
+              <p class="card-text mt-2 ms-3" style="font-size: large;">{{item.infoText}}</p>
             </div>
           </div>
         </div>
         </div>
     </div>
+  </div>
 </div>
 <FooterComponent/>
 </main>
@@ -85,15 +87,4 @@ img {
 .card {
   box-shadow: 0 3px 10px black;
 }
-
-/*
-.card { 
-  border-radius: 20px;
-  box-shadow: 3px -3px 3px 3px black;
-}
-.card:hover {
-  border-radius: 20px;
-  box-shadow: 3px -3px 3px 3px white;
-}
-*/
 </style>

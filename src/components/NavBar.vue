@@ -71,7 +71,7 @@ margin: 0 10px;
 }
 
 .menu-list {
-  font-family: 'Gemunu Libre', sans-serif;
+  font-family: 'Playfair Display', serif;
   list-style: none;
   font-size: 25px;
 }

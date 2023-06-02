@@ -5,8 +5,9 @@
 
 </script>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@600&family=Nanum+Pen+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 
 * {
     margin: 0;
@@ -20,25 +21,25 @@ body {
     width: 100%;
 }
 
-h2 {
-    font-family: 'Gemunu Libre', sans-serif;
-}
-h4, p, .project-tile, #fill, #social-media, #projects, footer {
-    font-family: 'Alkalami', serif;
-}
 main, footer {
     min-width: 100%;
 }
 
 h1, h2, h3, h5, h6 {
+    font-family: 'Playfair Display', serif;
     text-align: center;
     padding-bottom: 20px;
     padding: 20px;
 }
 h4 {
+    font-family: 'Playfair Display', serif;
     text-align: center;
     padding-bottom: 20px;
     padding-top: 20px;
+}
+
+p, button {
+    font-family: 'Poppins', sans-serif;
 }
 
 #skills {
@@ -114,8 +115,24 @@ h4 {
     border: 1px solid;
     box-shadow: 5px 10px;
     padding: 20px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    margin: 5px;
+}
+/*
+#btn-style {
+background: transparent;
+color: white;
+border: 1px solid white;
+border-radius: 1px;
+padding: 10px;
 }
 
+#btn-style:hover {
+border: 1px solid black;
+color: black;
+}
+*/
 main {
     /*
     background: url(https://i.postimg.cc/DzDVmKRH/wallpaper4.jpg);

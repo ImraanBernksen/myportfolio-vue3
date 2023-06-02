@@ -86,6 +86,7 @@ footer {
     /*text-align: start; */
     font-size: 18px;
     text-decoration: none;
+    font-family: 'Poppins', sans-serif;
 }
 
 .line {

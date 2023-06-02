@@ -107,6 +107,11 @@ import FooterComponent from '../components/FooterComponent.vue'
   };
 </script>
 <style scoped>
+#btn_ {
+  font-family: 'Poppins', sans-serif;
+  margin: 5px;
+}
+
 #M1I0B_ {
   color: black;
   font-size: 30px;

@@ -60,6 +60,7 @@ button {
   border-radius: 4px;
   box-shadow: 2px 2px 7px 0 rgb(0, 0, 0, 0.2);
   outline: none;
+  font-family: 'Poppins', sans-serif;
 }
 
 #contact {
@@ -68,6 +69,7 @@ button {
 
 label {
   color: #00334C;
+  font-family: 'Poppins', sans-serif;
 }
 
 </style>

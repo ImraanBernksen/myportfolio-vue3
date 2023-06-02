@@ -19,7 +19,7 @@
             </div>
           </div>
           <div class="col-12 col-lg-6 mt-4">
-            <div id="border-about" class="border-img py-3 animate__animated animate__fadeInRight">
+            <div id="border-about" class="border-img animate__animated animate__fadeInRight" style="padding: 42px;">
               <img class="img-fluid" src="https://i.postimg.cc/8PP9yW3X/undraw-Profile-re-4a55.png"
                 style="width: 100%;">
             </div>
@@ -41,7 +41,7 @@
             </div>
           </div>
           <div class="col-12 col-lg-6 mb-4">
-            <div id="border-about" class="border-img mt-3 animate__animated animate__fadeInRight" style="padding-bottom: 73px;">
+            <div id="border-about" class="border-img mt-3 animate__animated animate__fadeInRight" style="padding-bottom: 134px;">
               <h4 class="about-par"><ins>PERSONAL DETAILS</ins></h4>
               <p class="lead about-par">
                 Name: Mogamad Imraan<br>

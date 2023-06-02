@@ -19,8 +19,8 @@
           <div class="col-md-6 col-sm-6">
             <p class="text-center animate__animated animate__fadeInDown" id="myName" style="color: black;">WELCOME TO MY
               PORTFOLIO</p>
-            <p class="slogan-now">MOGAMAD IMRAAN</p>
-            <p class="slogan-now">BERNKSEN</p>
+            <h4 class="slogan-now">MOGAMAD IMRAAN</h4>
+            <h4 class="slogan-now">BERNKSEN</h4>
             <!-- <div class="animation">
             <div class="waviy">
               <span style="--i:1">M</span>
@@ -49,10 +49,9 @@
               <span style="--i:21">N</span>
             </div>
           </div> -->
-            <p class="text-center animate__animated animate__fadeInUp" id="myName" style="color: black;">FULL STACK WEB
-              DEVELOPER</p>
+            <p class="text-center animate__animated animate__fadeInUp" id="myName" style="color: black;">FULL STACK WEB DEVELOPER</p>
             <div class="home_extra">
-              <a href="https://drive.google.com/file/d/11Iz-yqSb0fprw9TIXhgd6_m85EPiy72D/view?usp=share_link" target="_blank" class="tdn btn btn-outline-dark" id="btn_">DOWNLOAD
+              <a href="https://drive.google.com/file/d/1g9irfMZecRrE4A0qfyu3VGDDTjJQXf39/view?usp=share_link" target="_blank" class="tdn btn btn-outline-dark" id="btn_">DOWNLOAD
                   CV</a>
               <a href="/about" class="tdn btn btn-outline-dark" id="btn_">MORE INFO</a>
 
@@ -92,6 +91,9 @@ main {
   height: 100vh !important;
 }
 */
+a {
+  font-family: 'Poppins', sans-serif;
+}
 
 .row {
   width: 100%;

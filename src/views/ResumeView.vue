@@ -4,7 +4,7 @@
     <div id="skills">
     <div class="container">
     <div class="row">
-    <div class="col-lg-6 p-4 animate__animated animate__fadeInLeft" style="height: 100vh;">
+    <div class="col-lg-6 p-4 animate__animated animate__fadeInLeft">
             <h4><ins>EDUCATION</ins></h4>
             <div class="row pt-4 pb-4" id="border-edu">
             <div class="col-sm-6 m-auto">
@@ -59,10 +59,10 @@
         </ul> -->
     </div>
     </div>
-    <div class="container" style="height: 100vh;">
-        <div style="margin: auto;">
+    <div class="container">
+        <div class="tech-skills">
         <h4><ins>TECHNICAL SKILLS</ins></h4>
-            <div class="row">
+            <div class="row pt-5">
             <div class="col">
                 <i id="imo" class="fa-brands fa-html5 fa-10x"></i>
             </div>
@@ -104,6 +104,10 @@ export default {
 }
 </script>
 <style scoped>
+.tech-skills {
+    padding: 40px 0 80px 0;
+}
+
 #border-edu {
     box-shadow: 0 3px 10px black;
 }
@@ -148,14 +152,4 @@ i.imo:hover {
     margin-left: 140px;
     margin-right: 140px;
 }
-/*
-.card { 
-  border-radius: 20px;
-  box-shadow: 3px -3px 3px 3px black;
-}
-.card:hover {
-  border-radius: 20px;
-  box-shadow: 3px -3px 3px 3px gold;
-}
-*/
 </style>

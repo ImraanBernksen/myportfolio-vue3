@@ -1,9 +1,77 @@
 <template>
   <main>
     <NavBar />
-    <div id="home" style="padding-bottom: 60px;">
+    <div id="home" style="padding-bottom: 80px;">
       <div class="wrapper pt-5">
-        <div class="row">
+        <div class="row num1">
+          <div class="col-md-6 col-sm-6 home-text">
+            <p class="text-start animate__animated animate__fadeInDown" id="myName" style="color: black;">WELCOME TO MY
+              PORTFOLIO</p>
+            <h4 class="slogan-now">MOGAMAD IMRAAN</h4>
+            <h4 class="slogan-now">BERNKSEN</h4>
+            <!-- <div class="animation">
+            <div class="waviy">
+              <span style="--i:1">M</span>
+              <span style="--i:2">O</span>
+              <span style="--i:3">G</span>
+              <span style="--i:4">A</span>
+              <span style="--i:5">M</span>
+              <span style="--i:6">A</span>
+              <span style="--i:7">D</span>
+              <div style="color: transparent;">.......</div>
+              <span style="--i:8">I</span>
+              <span style="--i:9">M</span>
+              <span style="--i:10">R</span>
+              <span style="--i:11">A</span>
+              <span style="--i:12">A</span>
+              <span style="--i:13">N</span>
+            </div>
+            <div class="waviy">
+              <span style="--i:14">B</span>
+              <span style="--i:15">E</span>
+              <span style="--i:16">R</span>
+              <span style="--i:17">N</span>
+              <span style="--i:18">K</span>
+              <span style="--i:19">S</span>
+              <span style="--i:20">E</span>
+              <span style="--i:21">N</span>
+            </div>
+          </div> -->
+            <p class="text-start animate__animated animate__fadeInUp" id="myName" style="color: black;">FULL STACK WEB DEVELOPER</p>
+            <div class="home_extra">
+              <a href="https://drive.google.com/file/d/1g9irfMZecRrE4A0qfyu3VGDDTjJQXf39/view?usp=share_link" target="_blank" class="tdn btn btn-outline-dark" id="btn_">DOWNLOAD
+                  CV</a>
+              <a href="/about" class="tdn btn btn-outline-dark" id="btn_">READ MORE</a>
+
+              <!-- <div class="lead pt-4">
+                  <a id="M1I0B_" target="_blank" href="https://www.instagram.com/imraanbernksen"
+                    class="fa-brands fa-instagram"></a>
+                  <a id="M1I0B_" target="_blank" href="https://www.youtube.com/channel/UCSPsMgF3JVcXGRjXDwGBNaQ"
+                    class="fa-brands fa-youtube"></a>
+                  <a id="M1I0B_" target="_blank" href="https://www.tiktok.com/@imraanbernksen"
+                    class="fa-brands fa-tiktok"></a>
+                  <a id="M1I0B_" target="_blank" href="https://codepen.io/IMRAANBERNKSEN"
+                    class="fa-brands fa-codepen"></a>
+                  <a id="M1I0B_" target="_blank" href="https://github.com/ImraanBernksen"
+                  class="fa-brands fa-github"></a>
+                </div> -->
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <div class="flip-box img-fluid">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <img class="img img-fluid" src="https://i.postimg.cc/kXZsqSPz/t0.jpg" alt="IMO">
+                </div>
+                <div class="flip-box-back img-fluid">
+                  <img class="photo img-fluid" src="https://i.postimg.cc/nV1L9kVN/IMG-20220810-221420-027.jpg" alt="logo">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- --------------------------------------------------------------------------------------------- -->
+        <div class="row num2">
           <div class="col-md-6 col-sm-6">
             <div class="flip-box img-fluid">
               <div class="flip-box-inner">
@@ -91,6 +159,14 @@ main {
   height: 100vh !important;
 }
 */
+.home-text {
+  padding-left: 200px;
+}
+
+.home_extra {
+  text-align: start;
+}
+
 a {
   font-family: 'Poppins', sans-serif;
 }
@@ -99,8 +175,11 @@ a {
   width: 100%;
 }
 
-.animation {
-  padding-right: 20px;
+.num1 {
+  display: flex;
+}
+.num2 {
+  display: none;
 }
 
 .tdn {
@@ -224,7 +303,7 @@ body {
 .slogan-now {
   color: white;
   text-shadow:  1.5px 1.5px 1.5px black;
-  text-align: center;
+  text-align: start;
   font-size: 50px;
   animation-duration: 2.5s;
   animation-fill-mode: both;
@@ -251,8 +330,8 @@ body {
 }
 */
 
-/* Media query for screens up to 300px */
-@media screen and (max-width: 300px) {
+/* Media query for screens up to 375px */
+@media screen and (max-width: 500px) {
 
   body {
       width: 100%;
@@ -265,5 +344,14 @@ body {
   .flip-card:hover .flip-card-inner {
     transform: none !important;
   }
+
+  .num1 {
+    display: none;
+  }
+
+  .num2 {
+    display: flex;
+  }
+  
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
   <main>
     <NavBar />
-    <div class="container">
+    <div class="container pt-4">
         <div class="row">
           <div class="col-12 col-lg-6 mt-4">
             <div id="border-about" class="border-img animate__animated animate__fadeInLeft">

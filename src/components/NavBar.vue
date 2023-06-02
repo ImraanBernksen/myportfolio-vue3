@@ -8,7 +8,7 @@
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
             <ul class="navbar-nav mb-2 mb-lg-0">
               <li class="nav-item">
                 <router-link to="/" class="nav-link">Home</router-link>
@@ -58,7 +58,6 @@ ul {
 }
 
 li {
-  display: inline-block;
   margin: 0 10px;
 }
 

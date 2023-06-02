@@ -5,7 +5,7 @@
     <h4 class="animate__animated animate__fadeInDown"><ins>TESTIMONIALS</ins></h4>
     <div class="container">
     <div class="row" style="gap: 2rem; padding: 32px;">
-        <div class="card" v-for="item in arr" :key="item" style="min-height: 23rem; width: 38rem; margin: auto; background-color: transparent;">
+        <div class="card" v-for="item in arr" :key="item" style="min-height: 26rem; width: 38rem; margin: auto; background-color: transparent;">
           <div class="row g-0" style="width: 100%;">
           <div class="col-md-6 col-sm-6">
             <img :src="item.imgSrc" loading="lazy" class="img-fluid rounded-start mt-4 m-auto">
@@ -47,12 +47,12 @@ export default {
   },
   {
     personName: 'Brogan Gys',
-    infoText: 'He is a very punctual person,  always on time. He is a very passionate person on the things he loves to do. He is very experienced with HTML, CSS, Bootstrap and thus he always understands his code and work that he is busy with.',
+    infoText: 'Imraan is a well rounded developer, having the skills to do both front end and backend with fantastic results. He can work well on his own and with a team, never cracks under pressure and always aims for perfection in his projects. He is a very punctual person, always on time, passionate person on the things he loves to do.',
     imgSrc: 'https://i.postimg.cc/KjQBYJv7/t2.jpg',
   },
     {
     personName: 'Joel Mukanya',
-    infoText: 'Imraan is the definition of a dedicated and professional young talent who has already proven to us that he is work-ready. He gained knowledge of web development, databases, APIs, and more.He volunteers as a lecturer assistant, and his duties are to assist students with their tasks and mark their assignments.',
+    infoText: 'Imraan is the definition of a dedicated and professional young talent who has already proven to us that he is work-ready. He gained knowledge of web development, databases, APIs, and more. He volunteers as a lecturer assistant, and his duties are to assist students with their tasks and mark their assignments.',
     imgSrc: 'https://i.postimg.cc/QdCvRYV6/Joel-Profile.jpg',
   },
   {

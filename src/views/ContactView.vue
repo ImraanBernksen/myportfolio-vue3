@@ -64,7 +64,7 @@ button {
 }
 
 #contact {
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 label {

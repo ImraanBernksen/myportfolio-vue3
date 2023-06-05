@@ -23,7 +23,7 @@
                 </div>
             </div>
             <div class="col-sm-6 m-auto pt-3">
-                <p class="lead about-par">Life Choices Academy, 314 Imam Harom Rd, Lansdowne :<br> - LC Studio Intern (2023 - Currently) <br> - Lecturer Assistant (2023 - Currently)</p>
+                <p class="lead about-par">Life Choices Academy, 314 Imam Harom Rd, Lansdowne <br> - LC Studio Intern (2023 - Currently) <br> - Lecturer Assistant (2023 - Currently)</p>
             </div>
             </div>
     </div>
@@ -124,7 +124,7 @@ export default {
 }
 
 #expert {
-    padding: 22.5px;
+    padding: 18.6px;
 }
 
 .border-img {

@@ -1,5 +1,5 @@
 <template>
-    <footer style="background-color: blue">
+    <footer style="background-color: white">
         
         <div class="container text-center pt-3">
             <div class="row">
